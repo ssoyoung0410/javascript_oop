@@ -1,12 +1,12 @@
 function Person(name,first,second,third) {
-    this.name = name;
-    this.first = first;
-    this.second = second
+  this.name = name;
+  this.first = first;
+  this.second = second
     
 }
 
 Person.prototype.sum = function() {
-   return this.first + this.second;
+  return this.first + this.second;
 }
 
 var kim = new Person('kim',10,20);
